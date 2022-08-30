@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="p_DEFENCE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="531.0" prefWidth="935.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DOD_GUI.Controller">
+    <children>
+        <ImageView fx:id="IMV1" fitHeight="117.0" fitWidth="140.0" focusTraversable="true" layoutX="24.0" layoutY="56.0" onMouseClicked="#ctr_sniper1" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/e72673ee141b6dbdb0484f4fcac70444.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="65.09" offsetX="5.0" offsetY="2.0" radius="28.765" spread="0.09" width="51.97" />
+            </effect>
+        </ImageView>
+        <Label layoutX="37.0" layoutY="34.0" text="Sniper">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="35.3" radius="15.9575" spread="0.11" width="30.53">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+
+        <Button fx:id="bt_READY1" disable="true" layoutX="828.0" layoutY="437.0" mnemonicParsing="false" onMouseClicked="#goto2" prefHeight="56.0" prefWidth="67.0" text="Ready" />
+        <ImageView fx:id="IMV3" fitHeight="93.0" fitWidth="159.0" layoutX="360.0" layoutY="57.0" onMouseClicked="#ctr_TeslaTank1" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/johnson-ting-teslatank-4.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="51.98" offsetX="5.0" offsetY="3.0" radius="25.49" spread="0.1" width="51.98" />
+            </effect>
+        </ImageView>
+        <Label layoutX="380.0" layoutY="34.0" text="Tesla Tank">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="37.68" radius="18.9375" spread="0.06" width="40.07">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb1" layoutX="79.0" layoutY="36.0" prefHeight="17.0" prefWidth="25.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="37.69" radius="19.535" spread="0.07" width="42.45">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb3" layoutX="448.0" layoutY="34.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="56.75" radius="23.705" spread="0.1" width="40.07">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fx:id="IMV2" fitHeight="90.0" fitWidth="148.0" layoutX="181.0" layoutY="56.0" onMouseClicked="#ctr_soldier1" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/screen-1.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="30.53" offsetX="5.0" offsetY="3.0" radius="26.085" spread="0.11" width="75.81" />
+            </effect>
+        </ImageView>
+        <ImageView fx:id="IMV4" fitHeight="90.0" fitWidth="159.0" layoutX="558.0" layoutY="56.0" onMouseClicked="#ctr_tower1" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/ZONE1A-033-AIRFIELD-NORTHWEST-ENTRANCE.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="51.98" offsetX="6.0" offsetY="3.0" radius="24.895" spread="0.12" width="49.6" />
+            </effect>
+        </ImageView>
+        <Label layoutX="192.0" layoutY="34.0" text="Soldier">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="42.45" radius="21.915" spread="0.07" width="47.21">
+                    <color>
+                        <Color red="1.0" green="0.9833333492279053" blue="0.9833333492279053" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label layoutX="569.0" layoutY="34.0" text="Tower">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="37.68" radius="17.15" spread="0.14" width="32.92">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb2" layoutX="236.0" layoutY="35.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="40.07" radius="18.3425" spread="0.11" width="35.3">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb4" layoutX="617.0" layoutY="36.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="47.81" radius="22.065" spread="0.08" width="42.45">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fx:id="IMV5" fitHeight="99.0" fitWidth="140.0" layoutX="30.0" layoutY="208.0" onMouseClicked="#ctr_Cannon1" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/50b41e0138b308f3e49688ead976f70f.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="54.36" offsetX="6.0" offsetY="3.0" radius="25.490000000000002" spread="0.07" width="49.6" />
+            </effect>
+        </ImageView>
+        <Label layoutX="36.0" layoutY="183.0" text="Cannon">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="57.95" radius="26.9825" spread="0.06" width="51.98">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb5" layoutX="86.0" layoutY="183.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="50.2" radius="24.450000000000003" spread="0.1" width="49.6">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fx:id="IMV6" fitHeight="117.0" fitWidth="175.0" layoutX="187.0" layoutY="208.0" onMouseClicked="#ctr_AirDefence" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/patriot.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="56.75" offsetX="5.0" offsetY="3.0" radius="26.682499999999997" spread="0.15" width="51.98" />
+            </effect></ImageView>
+        <Label layoutX="198.0" layoutY="183.0" text="Air Defence">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="44.84" radius="23.11" spread="0.06" width="49.6">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb6" layoutX="272.0" layoutY="183.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="54.36" radius="26.68" spread="0.14" width="54.36">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+
+
+
+        <MenuButton fx:id="MenuButton1" layoutX="818.0" layoutY="77.0" mnemonicParsing="false" text="Defenders" />
+        <Label fx:id="POINTS1" layoutX="805.0" layoutY="43.0" text="Points">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font></Label>
+        <Button fx:id="bt_RESET1" disable="true" layoutX="834.0" layoutY="379.0" mnemonicParsing="false" onMouseClicked="#Dreset" prefHeight="48.0" prefWidth="55.0" text="Reset" />
+        <ImageView fx:id="IMV7" fitHeight="128.0" fitWidth="159.0" layoutX="373.0" layoutY="208.0" onMouseClicked="#ctr_MirageTank1" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/07a6a3ee4f969628cb08ec2994acf205.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="51.98" offsetX="5.0" offsetY="3.0" radius="28.47" spread="0.2" width="63.9" />
+            </effect></ImageView>
+        <Label layoutX="380.0" layoutY="183.0" text="Mirage Tank">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="40.07" radius="18.3425" spread="0.1" width="35.3">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb7" layoutX="459.0" layoutY="183.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="37.68" radius="18.34" spread="0.1" width="37.68">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fx:id="IMV8" fitHeight="93.0" fitWidth="140.0" layoutX="559.0" layoutY="206.0" onMouseClicked="#ctr_GrizzlyTank1" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/main-qimg-cd4e36dea86bb7fc065f455a7214859d.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="44.83" offsetX="5.0" offsetY="3.0" radius="24.2975" spread="0.07" width="54.36" />
+            </effect>
+        </ImageView>
+        <Label layoutX="558.0" layoutY="183.0" text="Grizzly Tank">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="42.45" radius="18.9375" spread="0.09" width="35.3">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb8" layoutX="629.0" layoutY="183.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="46.03" radius="21.622500000000002" spread="0.09" width="42.46">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fx:id="IMV9" fitHeight="117.0" fitWidth="130.0" layoutX="24.0" layoutY="385.0" onMouseClicked="#ctr_NavySeal1" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/d04b09432e2d4fdf631a5e5d3f248f41.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="49.6" offsetX="6.0" offsetY="3.0" radius="23.1075" spread="0.09" width="44.83" />
+            </effect>
+        </ImageView>
+        <Label layoutX="40.0" layoutY="362.0" text="Navy Seal">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="48.41" radius="23.4075" spread="0.09" width="47.22">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb9" layoutX="101.0" layoutY="362.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="49.6" radius="21.9175" spread="0.11" width="40.07">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fx:id="IMV10" fitHeight="128.0" fitWidth="159.0" layoutX="181.0" layoutY="390.0" onMouseClicked="#ctr_TankDestroyer1" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/screenshot2522.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="39.92" offsetX="5.0" offsetY="3.0" radius="20.6875" spread="0.09" width="44.83" />
+            </effect>
+        </ImageView>
+        <Label layoutX="181.0" layoutY="362.0" text="Tank Destroyer">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="37.68" radius="18.34" spread="0.07" width="37.68">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb10" layoutX="272.0" layoutY="362.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="40.07" radius="20.130000000000003" spread="0.12" width="42.45">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fx:id="IMV11" fitHeight="117.0" fitWidth="130.0" layoutX="381.0" layoutY="390.0" onMouseClicked="#ctr_PrismTank1" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/Solartank.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="42.45" offsetX="5.0" offsetY="3.0" radius="20.725" spread="0.09" width="42.45" />
+            </effect>
+        </ImageView>
+        <Label layoutX="395.0" layoutY="362.0" text="Prism Tank">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="35.3" radius="16.555" spread="0.07" width="32.92">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb11" layoutX="465.0" layoutY="362.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="36.49" radius="17.447499999999998" spread="0.09" width="35.3">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fx:id="IMV12" fitHeight="117.0" fitWidth="128.0" layoutX="566.0" layoutY="385.0" onMouseClicked="#ctr_PillBox1" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/81tGtLkC2sL._AC_SX425_.jpg" />
+            </image>
+            <effect>
+                <DropShadow height="47.22" offsetX="5.0" offsetY="3.0" radius="21.9175" spread="0.15" width="42.45" />
+            </effect>
+        </ImageView>
+        <Label layoutX="576.0" layoutY="362.0" text="Pillbox">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="42.45" radius="21.9175" spread="0.11" width="47.22">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Label fx:id="lb12" layoutX="622.0" layoutY="362.0" prefHeight="17.0" prefWidth="17.0">
+            <font>
+                <Font name="System Bold" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow height="44.83" radius="20.127499999999998" spread="0.09" width="37.68">
+                    <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="870.0" layoutY="45.0" pickOnBounds="true" preserveRatio="true">
+            <image>
+                <Image url="@../Resources/coin-stack.png" />
+            </image></ImageView>
+    </children>
+</Pane>

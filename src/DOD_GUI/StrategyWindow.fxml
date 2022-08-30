@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="p_Stratgy" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="233.0" prefWidth="804.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DOD_GUI.Controller">
+    <children>
+        <MenuButton fx:id="MenuButton3" layoutX="29.0" layoutY="51.0" mnemonicParsing="false" text="Strategy">
+            <items>
+                <MenuItem mnemonicParsing="false" text="HighestDamage" />
+                <MenuItem mnemonicParsing="false" text="LowestHealth" />
+                <MenuItem mnemonicParsing="false" text="Random" />
+                <MenuItem mnemonicParsing="false" text="Customized" />
+            </items>
+        </MenuButton>
+
+        <GridPane fx:id="gp_Stratgy" gridLinesVisible="true" layoutX="169.0" layoutY="76.0" prefHeight="25.0" prefWidth="608.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+                <Button fx:id="cel_1" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="55.0" visible="false" />
+                <Button fx:id="cel_2" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="64.0" visible="false" GridPane.columnIndex="1" />
+                <Button fx:id="cel_3" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="70.0" visible="false" GridPane.columnIndex="2" />
+                <Button fx:id="cel_4" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="58.0" visible="false" GridPane.columnIndex="3" />
+                <Button fx:id="cel_5" disable="true" mnemonicParsing="false" prefHeight="25.0" prefWidth="59.0" visible="false" GridPane.columnIndex="4" />
+                <Button fx:id="cel_6" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="55.0" visible="false" GridPane.columnIndex="5" />
+                <Button fx:id="cel_7" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="52.0" visible="false" GridPane.columnIndex="6" />
+                <Button fx:id="cel_8" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="56.0" visible="false" GridPane.columnIndex="7" />
+                <Button fx:id="cel_9" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="61.0" visible="false" GridPane.columnIndex="8" />
+                <Button fx:id="cel_10" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="55.0" visible="false" GridPane.columnIndex="9" />
+                <Button fx:id="cel_11" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="79.0" visible="false" GridPane.columnIndex="10" />
+                <Button fx:id="cel_12" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="60.0" visible="false" GridPane.columnIndex="11" />
+                <Button fx:id="cel_13" disable="true" mnemonicParsing="false" prefHeight="26.0" prefWidth="77.0" visible="false" GridPane.columnIndex="12" />
+            </children>
+        </GridPane>
+        <Button fx:id="bst_1" layoutX="178.0" layoutY="124.0" mnemonicParsing="false" text="Tesla Tank" />
+        <Button fx:id="bst_2" layoutX="260.0" layoutY="124.0" mnemonicParsing="false" text="Sniper" />
+        <Button fx:id="bst_3" layoutX="327.0" layoutY="124.0" mnemonicParsing="false" text="Soldier" />
+        <Button fx:id="bst_4" layoutX="394.0" layoutY="125.0" mnemonicParsing="false" text="Tower" />
+        <Button fx:id="bst_5" layoutX="448.0" layoutY="124.0" mnemonicParsing="false" text="Canon" />
+        <Button fx:id="bt_SET" layoutX="32.0" layoutY="112.0" mnemonicParsing="false" text="SET" />
+        <Button fx:id="bt_CLOSE" layoutX="32.0" layoutY="138.0" mnemonicParsing="false" onMouseClicked="#Close" text="Close" />
+        <Button fx:id="bst_8" layoutX="228.0" layoutY="163.0" mnemonicParsing="false" text="Mirage Tank" />
+        <Button fx:id="bst_9" layoutX="327.0" layoutY="163.0" mnemonicParsing="false" text="Grizzly Tank" />
+        <Button fx:id="bst_10" layoutX="430.0" layoutY="163.0" mnemonicParsing="false" text="Navy Seal" />
+        <Button fx:id="bst_11" layoutX="523.0" layoutY="163.0" mnemonicParsing="false" text="Tank Destroyer" />
+        <Button fx:id="bst_6" layoutX="523.0" layoutY="125.0" mnemonicParsing="false" text="Prism Tank" />
+        <Button fx:id="bst_12" layoutX="636.0" layoutY="163.0" mnemonicParsing="false" text="Pillbox" />
+        <Button fx:id="bst_7" layoutX="619.0" layoutY="126.0" mnemonicParsing="false" text="Car BOMB" />
+        <Button fx:id="bst_13" layoutX="380.0" layoutY="202.0" mnemonicParsing="false" text="Air Defence" />
+        <Label layoutX="390.0" layoutY="36.0" text="The Priorities" textFill="WHITE">
+            <font>
+                <Font name="Broadway" size="18.0" />
+            </font>
+            <effect>
+                <DropShadow offsetY="5.0" radius="11.7875" spread="0.17" width="28.15" />
+            </effect>
+        </Label>
+    </children>
+</Pane>

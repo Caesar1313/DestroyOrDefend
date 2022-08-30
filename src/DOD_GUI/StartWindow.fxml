@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="p_START" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="563.0" prefWidth="842.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DOD_GUI.Controller">
+
+
+
+
+   <children>
+      <Button fx:id="bt_START" layoutX="298.0" layoutY="410.0" mnemonicParsing="false" onMouseClicked="#Go" prefHeight="125.0" prefWidth="173.0" text="Start">
+         <font>
+            <Font name="Broadway" size="20.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <color>
+                  <Color red="0.2141081839799881" green="0.3815789520740509" blue="0.23922879993915558" />
+               </color>
+            </DropShadow>
+         </effect></Button>
+      <Label fx:id="lb_START" layoutX="125.0" layoutY="205.0" text="Destroy OR Defend" textFill="WHITE">
+         <font>
+            <Font name="Broadway" size="60.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

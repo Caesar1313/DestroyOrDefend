@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<Pane fx:id="p_PLAYERS" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DOD_GUI.Controller">
+    <children>
+        <Label layoutX="101.0" layoutY="104.0" text="Attackers Number : " textFill="WHITE">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow>
+                    <color>
+                        <Color red="0.36157408356666565" green="0.550000011920929" blue="0.39611881971359253" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <TextField fx:id="Atxt" layoutX="218.0" layoutY="100.0" />
+        <TextField fx:id="Dtxt" layoutX="218.0" layoutY="140.0" />
+        <Label layoutX="98.0" layoutY="144.0" text="Defenders Number : " textFill="#fafafa">
+            <font>
+                <Font name="System Bold Italic" size="12.0" />
+            </font>
+            <effect>
+                <DropShadow>
+                    <color>
+                        <Color red="0.33808478713035583" green="0.4868420958518982" blue="0.36287766695022583" />
+                    </color>
+                </DropShadow>
+            </effect></Label>
+        <Button fx:id="bt_NEXT" layoutX="191.0" layoutY="257.0" mnemonicParsing="false" onMouseClicked="#goto1" prefHeight="86.0" prefWidth="99.0" text="Next">
+            <font>
+                <Font name="Broadway" size="18.0" />
+            </font>
+            <effect>
+                <DropShadow>
+                    <color>
+                        <Color red="0.2338937669992447" green="0.3815789520740509" blue="0.25112369656562805" />
+                    </color>
+                </DropShadow>
+            </effect></Button>
+    </children>
+</Pane>
